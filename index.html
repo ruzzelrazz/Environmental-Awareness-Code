@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Awareness - Our Planet, Our Future</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .hero {
+            background-color: #1a4731;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #2d6a4f;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b7e4c7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            color: #2d6a4f;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #b7e4c7;
+            padding-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #2d6a4f;
+            margin-bottom: 15px;
+        }
+
+        .stat-box {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-box .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .cta-section {
+            background-color: #b7e4c7;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #2d6a4f;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #1a4731;
+        }
+
+        footer {
+            background-color: #1a4731;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Environmental Awareness</h1>
+        <p>Understanding and protecting our planet for future generations</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#climate-change">Climate Change</a></li>
+            <li><a href="#conservation">Conservation</a></li>
+            <li><a href="#take-action">Take Action</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="climate-change" class="section">
+            <h2>Climate Change Impact</h2>
+            <p>Climate change represents one of the greatest challenges facing our planet today. Understanding its causes, effects, and potential solutions is crucial for taking meaningful action.</p>
+            
+            <div class="grid">
+                <div class="stat-box">
+                    <div class="number">1.5°C</div>
+                    <p>Critical global temperature rise threshold</p>
+                </div>
+                <div class="stat-box">
+                    <div class="number">415 ppm</div>
+                    <p>Current atmospheric CO2 levels</p>
+                </div>
+                <div class="stat-box">
+                    <div class="number">3.3 mm</div>
+                    <p>Annual sea level rise</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="conservation" class="section">
+            <h2>Conservation Efforts</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Forest Protection</h3>
+                    <p>Forests are crucial carbon sinks and biodiversity hotspots. Protecting them is essential for maintaining Earth's ecological balance and combating climate change.</p>
+                </div>
+                <div class="card">
+                    <h3>Ocean Conservation</h3>
+                    <p>Our oceans absorb about 30% of CO2 released in the atmosphere. Protecting marine ecosystems is vital for planetary health.</p>
+                </div>
+                <div class="card">
+                    <h3>Wildlife Preservation</h3>
+                    <p>Maintaining biodiversity is crucial for ecosystem stability. Many species are at risk due to habitat loss and climate change.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="take-action" class="section">
+            <h2>How You Can Help</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Reduce Energy Usage</h3>
+                    <p>Switch to energy-efficient appliances, use LED bulbs, and optimize your home's temperature control systems.</p>
+                </div>
+                <div class="card">
+                    <h3>Sustainable Transportation</h3>
+                    <p>Choose public transport, carpooling, biking, or walking when possible. Consider electric vehicles for necessary car travel.</p>
+                </div>
+                <div class="card">
+                    <h3>Minimize Waste</h3>
+                    <p>Practice the 3 Rs: Reduce, Reuse, Recycle. Avoid single-use plastics and compost organic waste.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="cta-section">
+        <h2>Join the Movement</h2>
+        <p>Every action counts in the fight against climate change. Start making a difference today.</p>
+        <a href="#resources" class="cta-button">Learn More</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Environmental Awareness Initiative</p>
+        <p>Together we can make a difference for our planet's future.</p>
+    </footer>
+</body>
+</html>
